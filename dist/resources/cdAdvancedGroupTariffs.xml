@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<groupTariffs>
+    <groupTariff weekendOnly='true'>
+        <tariffName>Skupinová víkendová jízdenka</tariffName>
+        <price>275</price>
+        <maxPeople>5</maxPeople>
+        <maxAdults>2</maxAdults>
+        <maxChildren>5</maxChildren>                
+        <hours>24</hours>
+    </groupTariff>
+    <groupTariff weekendOnly='false'>
+        <tariffName>Celodenní jízdenka</tariffName>
+        <price>200</price>
+        <maxPeople>1</maxPeople>
+        <maxAdults>1</maxAdults>
+        <maxChildren>1</maxChildren>
+        <hours>24</hours>
+    </groupTariff>
+</groupTariffs>

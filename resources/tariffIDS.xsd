@@ -1,0 +1,107 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- simple types -->
+    <xs:simpleType name="exceptType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="brno"/>
+        </xs:restriction>
+    </xs:simpleType>
+   
+    <xs:simpleType name="restrictionType">
+        <xs:restriction base="xs:string">
+            <!-- no-brno indicates all zones without 100 and 101, no-brno otherwise -->
+            <xs:pattern value="brno|no-brno"/>
+        </xs:restriction>
+    </xs:simpleType>
+   
+    <xs:simpleType name="zoneType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(\d+|unlimited)"/>
+        </xs:restriction>
+    </xs:simpleType>
+   
+    <xs:simpleType name="inType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{3}"/>
+        </xs:restriction>
+    </xs:simpleType>
+   
+    <xs:element type="zoneType" name="zone" />
+    <xs:element type="xs:nonNegativeInteger" name="price" />
+    <!-- similar meaning as sequence of <in> elements with value equals all zones without 100 and 101 -->
+    <xs:element type="exceptType" name="except" />
+    <xs:element type="xs:positiveInteger" name="stations" />
+    <xs:element type="inType" name="in" />
+   
+    <!-- complex types -->        
+    <xs:element name="time">
+        <xs:complexType>
+            <xs:simpleContent>  
+                <xs:extension base="xs:positiveInteger">        
+                    <xs:attribute name="restriction" type="restrictionType" />            
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+       
+    <xs:element name="ticket">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="zone" />
+                <xs:element ref="price" />
+                <xs:element ref="time" maxOccurs="2" />
+                <xs:element ref="stations" minOccurs="0" />
+                <xs:choice>
+                    <xs:element ref="except" minOccurs="0" />
+                    <xs:element ref="in" minOccurs="0" maxOccurs="unbounded"/>
+                </xs:choice>
+            </xs:sequence>
+            <xs:attribute name="idx" type="xs:positiveInteger" use="required"/>
+             <!-- attributes maxAdults and maxChildren are required for weekendGroup-->
+            <xs:attribute name="maxAdults" type="xs:nonNegativeInteger"/>
+            <xs:attribute name="maxChildren" type="xs:nonNegativeInteger"/>
+        </xs:complexType>
+    </xs:element>
+
+<xs:element name="weekendGroup">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ticket" maxOccurs="unbounded" />                                
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>    
+
+    <xs:element name="transferable">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ticket" maxOccurs="unbounded" />
+                <!-- tickets, which can be used over the weekend for a group of maxAdults and maxChildren -->
+                <xs:element ref="weekendGroup"  minOccurs="0" />                        
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+       
+   
+    <xs:element name="non-transferable">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ticket" maxOccurs="unbounded"/>                    
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- root element -->
+
+    <xs:element name="tickets">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="transferable" minOccurs="0" />
+                <xs:element ref="non-transferable" minOccurs="0" />
+            </xs:sequence>
+        </xs:complexType>
+        <xs:unique name="unique-idx">
+            <xs:selector xpath=".//ticket"/>
+            <xs:field xpath="@idx"/>
+        </xs:unique>
+    </xs:element>
+</xs:schema>

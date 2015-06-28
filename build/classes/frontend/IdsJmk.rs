@@ -1,0 +1,10 @@
+frontend.IdsJmk$typeMapa
+frontend.IdsJmk
+frontend.IdsJmk$3
+frontend.SnapJFrame
+frontend.IdsJmk$2
+frontend.IdsJmk$1
+frontend.IdsJmk$7
+frontend.IdsJmk$6
+frontend.IdsJmk$5
+frontend.IdsJmk$4

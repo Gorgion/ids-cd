@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<links>
+   <link id="S1+S3+R3+R5">
+     <station idx="1">
+       <name>Níhov</name>
+       <zone>345</zone>
+     </station>
+     <station idx="2">
+       <name>Řikonín</name>
+       <zone>340</zone>
+     </station>
+     <station idx="3">
+       <name>Dolní Loučky</name>
+       <zone>340</zone>
+     </station>
+     <station idx="4">
+       <name>Tišnov</name>
+       <zone>330</zone>
+     </station>
+     <station idx="5">
+       <name>Hradčany</name>
+       <zone>330</zone>
+     </station>
+     <station idx="6">
+       <name>Čebín</name>
+       <zone>320</zone>
+     </station>
+     <station idx="7">
+       <name>Kuřim</name>
+       <zone>310</zone>
+     </station>
+     <station idx="8">
+       <name>Česká</name>
+       <zone>310</zone>
+     </station>
+     <station idx="9">
+       <name>Brno-Řečkovice</name>
+       <zone>101</zone>
+     </station>
+     <station idx="10">
+       <name>Brno-Královo Pole</name>
+       <zone>101</zone>
+     </station>
+     <station idx="11">
+       <name>Brno-Lesná</name>
+       <zone>101</zone>
+     </station>
+     <station idx="12">
+       <name>Brno-Židenice</name>
+       <zone>100</zone>
+     </station>
+     <station idx="13">
+       <name>Brno-Slatina</name>
+       <zone>101</zone>
+     </station>
+     <station idx="14">
+       <name>Brno hl.n.</name>
+       <zone>100</zone>
+     </station>
+     <station idx="15">
+       <name>Brno-Horní Heršpice</name>
+       <zone>101</zone>
+     </station>
+     <station idx="16">
+       <name>Modřice</name>
+       <zone>510</zone>
+     </station>
+     <station idx="17">
+       <name>Popovice u Rajhradu</name>
+       <zone>510</zone>
+     </station>
+     <station idx="18">
+       <name>Rajhrad</name>
+       <zone>510</zone>
+     </station>
+     <station idx="19">
+       <name>Vojkovice nad Svratkou</name>
+       <zone>525</zone>
+     </station>
+     <station idx="20">
+       <name>Hrušovany u Brna</name>
+       <zone>525</zone>
+     </station>
+     <station idx="21">
+       <name>Žabčice</name>
+       <zone>535</zone>
+     </station>
+     <station idx="22">
+       <name>Vranovice</name>
+       <zone>535</zone>
+     </station>
+     <station idx="23">
+       <name>Pouzdřany</name>
+       <zone>545</zone>
+     </station>
+     <station idx="24">
+       <name>Popice</name>
+       <zone>545</zone>
+     </station>
+     <station idx="25">
+       <name>Šakvice</name>
+       <zone>545</zone>
+     </station>
+     <station idx="26" >
+       <name>Zaječí</name>
+       <zone>555</zone>
+     </station>
+     <station idx="27">
+       <name>Rakvice</name>
+       <zone>555</zone>
+     </station>
+     <station idx="28">
+       <name>Podivín</name>
+       <zone>565</zone>
+     </station>
+     <station idx="29">
+       <name>Ladná</name>
+       <zone>565</zone>
+     </station>
+     <station idx="30">
+       <name>Břeclav</name>
+       <zone>575</zone>
+     </station>
+   </link>
+   <link id="S2+R2">
+     <station idx="1">
+       <name>Křenovice horní nádraží</name>
+       <zone>620</zone>
+     </station>
+     <station idx="2">
+       <name>Zbýšov</name>
+       <zone>620</zone>
+     </station>
+     <station idx="3">
+       <name>Hostěrádky-Rešov</name>
+       <zone>610</zone>
+     </station>
+     <station idx="4">
+       <name>Újezd u Brna</name>
+       <zone>610</zone>
+     </station>
+     <station idx="5">
+       <name>Sokolnice-Telnice</name>
+       <zone>610</zone>
+     </station>
+     <station idx="6">
+       <name>Brno-Chrlice</name>
+       <zone>101</zone>
+     </station>
+     <station idx="7">
+       <name>Brno hl.n.</name>
+       <zone>100</zone>
+     </station>
+     <station idx="8">
+       <name>Brno-Židenice</name>
+       <zone>100</zone>
+     </station>
+     <station idx="9">
+       <name>Bílovice nad Svitavou</name>
+       <zone>215</zone>
+     </station>
+     <station idx="10">
+       <name>Babice nad Svitavou</name>
+       <zone>215</zone>
+     </station>
+     <station idx="11">
+       <name>Adamov</name>
+       <zone>225</zone>
+     </station>
+     <station idx="12">
+       <name>Adamov zastávka</name>
+       <zone>225</zone>
+     </station>
+     <station idx="13">
+       <name>Blansko</name>
+       <zone>235</zone>
+     </station>
+     <station idx="14">
+       <name>Blansko město</name>
+       <zone>235</zone>
+     </station>
+     <station idx="15">
+       <name>Dolní Lhota</name>
+       <zone>235</zone>
+     </station>
+     <station idx="16">
+       <name>Rájec-Jestřebí</name>
+       <zone>245</zone>
+     </station>
+     <station idx="17">
+       <name>Doubravice nad Svitavou</name>
+       <zone>255</zone>
+     </station>
+     <station idx="18">
+       <name>Skalice nad Svitavou</name>
+       <zone>265</zone>
+     </station>
+     <station idx="19">
+       <name>Svitávka</name>
+       <zone>265</zone>
+     </station>    
+     <station idx="20">
+       <name>Zboněk</name>
+       <zone>275</zone>
+     </station> 
+     <station idx="21">
+       <name>Letovice zastávka</name>
+       <zone>275</zone>
+     </station>
+     <station idx="22">
+       <name>Letovice</name>
+       <zone>275</zone>
+     </station>
+     <station idx="23">
+       <name>Rozhraní</name>
+       <zone>285</zone>
+     </station>
+     <station idx="24">
+       <name>Moravská Chrastová</name>
+       <zone>285</zone>
+     </station>
+     <station idx="25">
+       <name>Březová nad Svitavou,žel.st.</name>
+       <zone>295</zone>
+     </station>
+   </link>
+   <link id="S21">
+     <station idx="1">
+       <name>Skalice nad Svitavou</name>
+       <zone>265</zone>
+     </station>
+     <station idx="2">
+       <name>Boskovice</name>
+       <zone>265</zone>
+     </station>
+     <station idx="3">
+       <name>Knínice u Boskovic</name>
+       <zone>275</zone>
+     </station>
+     <station idx="4">
+       <name>Šebetov</name>
+       <zone>275</zone>
+     </station>
+     <station idx="5">
+       <name>Cetkovice</name>
+       <zone>280</zone>
+     </station>
+     <station idx="6">
+       <name>Velké Opatovice</name>
+       <zone>290</zone>
+     </station>
+   </link>
+   <link id="S31">
+     <station idx="1">
+       <name>Tišnov</name>
+       <zone>330</zone>
+     </station>
+     <station idx="2">
+       <name>Štěpánovice</name>
+       <zone>340</zone>
+     </station>
+     <station idx="3">
+       <name>Borač</name>
+       <zone>340</zone>
+     </station>
+     <station idx="4">
+       <name>Prudká zastávka</name>
+       <zone>340</zone>
+     </station>
+     <station idx="5">
+       <name>Doubravník</name>
+       <zone>350</zone>
+     </station>
+     <station idx="6">
+       <name>Nedvědice</name>
+       <zone>350</zone>
+     </station>
+   </link>
+   <link id="S4+R4">
+     <station idx="1">
+       <name>Brno hl.n.</name>
+       <zone>100</zone>
+     </station>
+     <station idx="2">
+       <name>Brno-Horní Heršpice</name>
+       <zone>101</zone>
+     </station>
+     <station idx="3">
+       <name>Troubsko</name>
+       <zone>410</zone>
+     </station>
+     <station idx="4">
+       <name>Střelice dolní</name>
+       <zone>410</zone>
+     </station>
+     <station idx="5">
+       <name>Střelice</name>
+       <zone>410</zone>
+     </station>
+     <station idx="6">
+       <name>Omice</name>
+       <zone>410</zone>
+     </station>
+     <station idx="7">
+       <name>Tetčice</name>
+       <zone>425</zone>
+     </station>
+     <station idx="8">
+       <name>Rosice u Brna</name>
+       <zone>425</zone>
+     </station>
+     <station idx="9">
+       <name>Zastávka u Brna</name>
+       <zone>425</zone>
+     </station>
+     <station idx="10">
+       <name>Vysoké Popovice</name>
+       <zone>435</zone>
+     </station>
+     <station idx="11">
+       <name>Rapotice</name>
+       <zone>446</zone>
+     </station>
+     <station idx="12">
+       <name>Kralice nad Oslavou</name>
+       <zone>446</zone>
+     </station>
+    <station idx="13">
+       <name>Náměšť nad Oslavou</name>
+       <zone>456</zone>
+     </station>
+   </link>
+   <link id="S41">
+     <station idx="1">
+       <name>Brno hl.n.</name>
+       <zone>100</zone>
+     </station>
+     <station idx="2">
+       <name>Brno-Horní Heršpice</name>
+       <zone>101</zone>
+     </station>
+     <station idx="3">
+       <name>Troubsko</name>
+       <zone>410</zone>
+     </station>
+     <station idx="4">
+       <name>Střelice dolní</name>
+       <zone>410</zone>
+     </station>
+     <station idx="5">
+       <name>Střelice</name>
+       <zone>410</zone>
+     </station>
+     <station idx="6">
+       <name>Radostice</name>
+       <zone>427</zone>
+     </station>
+     <station idx="7">
+       <name>Silůvky</name>
+       <zone>427</zone>
+     </station>
+     <station idx="8">
+       <name>Moravské Bránice</name>
+       <zone>437</zone>
+     </station>
+     <variant>
+       <station idx="9">
+         <name>Ivančice,letovisko</name>
+         <zone>447</zone>
+       </station>
+       <station idx="10">
+         <name>Ivančice,město</name>
+         <zone>447</zone>
+       </station>
+       <station idx="11">
+         <name>Ivančice</name>
+         <zone>447</zone>
+       </station>
+       <station idx="12">
+         <name>Oslavany</name>
+         <zone>447</zone>
+       </station>
+     </variant>
+     <variant>
+       <station idx="13">
+         <name>Moravský Krumlov</name>
+         <zone>448</zone>
+       </station>
+       <station idx="14">
+         <name>Rakšice</name>
+         <zone>448</zone>
+       </station>
+       <station idx="15">
+         <name>Bohutice</name>
+         <zone>459</zone>
+       </station>
+       <station idx="16">
+         <name>Miroslav</name>
+         <zone>459</zone>
+       </station>
+     </variant>
+   </link>
+   <link id="S42">
+     <station idx="1">
+       <name>Miroslav</name>
+       <zone>459</zone>
+     </station>
+     <station idx="2">
+       <name>Dolenice</name>
+       <zone>550</zone>
+     </station>
+     <station idx="3">
+       <name>Břežany</name>
+       <zone>550</zone>
+     </station>
+     <station idx="4">
+       <name>Pravice</name>
+       <zone>560</zone>
+     </station>
+     <station idx="5">
+       <name>Hrušovany nad Jevišovkou</name>
+       <zone>560</zone>
+     </station>
+   </link>
+   <link id="S51">
+     <station idx="1">
+       <name>Šakvice</name>
+       <zone>545</zone>
+     </station>
+     <station idx="2">
+       <name>Hustopeče u Brna</name>
+       <zone>545</zone>
+     </station>
+   </link>
+   <link id="S52">
+     <station idx="1">
+       <name>Zaječí</name>
+       <zone>555</zone>
+     </station>
+     <station idx="2">
+       <name>Velké Pavlovice</name>
+       <zone>555</zone>
+     </station>
+     <station idx="3">
+       <name>Velké Pavlovice zastávka</name>
+       <zone>555</zone>
+     </station>
+     <station idx="4">
+       <name>Bořetice</name>
+       <zone>555</zone>
+     </station>
+     <station idx="5">
+       <name>Kobylí na Moravě</name>
+       <zone>650</zone>
+     </station>
+     <station idx="6">
+       <name>Brumovice</name>
+       <zone>650</zone>
+     </station>
+     <station idx="7">
+       <name>Čejč</name>
+       <zone>660</zone>
+     </station>
+     <station idx="8">
+       <name>Mutěnice zastávka</name>
+       <zone>910</zone>
+     </station>
+     <station idx="9">
+       <name>Mutěnice</name>
+       <zone>910</zone>
+     </station>
+     <station idx="10">
+       <name>Hodonín</name>
+       <zone>900</zone>
+     </station>
+   </link>
+   <link id="S53">
+     <station idx="1">
+       <name>Břeclav</name>
+       <zone>575</zone>
+     </station>
+     <station idx="2">
+       <name>Lanžhot</name>
+       <zone>585</zone>
+     </station>
+   </link>
+   <link id="S6+R6">
+     <station idx="1">
+       <name>Brno hl.n.</name>
+       <zone>100</zone>
+     </station>
+     <station idx="2">
+       <name>Brno-Židenice</name>
+       <zone>100</zone>
+     </station>
+     <station idx="3">
+       <name>Brno-Černovice</name>
+       <zone>100</zone>
+     </station>
+     <station idx="4">
+       <name>Brno-Slatina</name>
+       <zone>101</zone>
+     </station>
+     <station idx="5">
+       <name>Šlapanice</name>
+       <zone>610</zone>
+     </station>
+     <station idx="6">
+       <name>Ponětovice</name>
+       <zone>610</zone>
+     </station>
+     <station idx="7">
+       <name>Blažovice</name>
+       <zone>610</zone>
+     </station>
+     <station idx="8">
+       <name>Křenovice dolní nádraží</name>
+       <zone>620</zone>
+     </station>
+     <station idx="9">
+       <name>Slavkov u Brna</name>
+       <zone>635</zone>
+     </station>
+     <station idx="10">
+       <name>Křižanovice</name>
+       <zone>635</zone>
+     </station>
+     <station idx="11">
+       <name>Marefy</name>
+       <zone>645</zone>
+     </station>
+     <station idx="12">
+       <name>Bučovice</name>
+       <zone>645</zone>
+     </station>
+     <station idx="13">
+       <name>Nevojice</name>
+       <zone>645</zone>
+     </station>
+     <station idx="14">
+       <name>Nesovice</name>
+       <zone>655</zone>
+     </station>
+     <station idx="15">
+       <name>Brankovice</name>
+       <zone>655</zone>
+     </station>
+     <station idx="16">
+       <name>Nemotice</name>
+       <zone>655</zone>
+     </station>
+     <station idx="17">
+       <name>Jestřabice</name>
+       <zone>665</zone>
+     </station>
+     <station idx="18">
+       <name>Bohuslavice u Kyjova</name>
+       <zone>675</zone>
+     </station>
+     <station idx="19">
+       <name>Kyjov</name>
+       <zone>675</zone>
+     </station>
+     <station idx="20">
+       <name>Kyjov zastávka</name>
+       <zone>675</zone>
+     </station>
+     <station idx="21">
+       <name>Vlkoš</name>
+       <zone>685</zone>
+     </station>
+     <station idx="22">
+       <name>Vracov</name>
+       <zone>685</zone>
+     </station>
+     <station idx="23">
+       <name>Bzenec</name>
+       <zone>695</zone>
+     </station>
+     <station idx="24">
+       <name>Veselí nad Moravou</name>
+       <zone>935</zone>
+     </station>
+   </link>
+   <link id="S61">
+     <station idx="1">
+       <name>Bzenec</name>
+       <zone>695</zone>
+     </station>
+     <station idx="2">
+       <name>Bzenec-Olšovec</name>
+       <zone>695</zone>
+     </station>
+     <station idx="3">
+       <name>Moravský Písek</name>
+       <zone>695</zone>
+     </station>
+   </link>
+   <link id="S71+R7">
+     <station idx="1">
+       <name>Nezamyslice</name>
+       <zone>765</zone>
+     </station>
+     <station idx="2">
+       <name>Chvalkovice na Hané</name>
+       <zone>750</zone>
+     </station>
+     <station idx="3">
+       <name>Ivanovice na Hané</name>
+       <zone>750</zone>
+     </station>
+     <station idx="4">
+       <name>Hoštice-Heroltice</name>
+       <zone>750</zone>
+     </station>
+     <station idx="5">
+       <name>Vyškov na Moravě</name>
+       <zone>740</zone>
+     </station>
+     <station idx="6">
+       <name>Luleč</name>
+       <zone>730</zone>
+     </station>
+     <station idx="7">
+       <name>Rousínov</name>
+       <zone>730</zone>
+     </station>
+     <station idx="8">
+       <name>Křenovice horní nádraží</name>
+       <zone>620</zone>
+     </station>
+     <station idx="9">
+       <name>Zbýšov</name>
+       <zone>620</zone>
+     </station>
+     <station idx="10">
+       <name>Hostěrádky-Rešov</name>
+       <zone>610</zone>
+     </station>
+     <station idx="11">
+       <name>Újezd u Brna</name>
+       <zone>610</zone>
+     </station>
+     <station idx="12">
+       <name>Sokolnice-Telnice</name>
+       <zone>610</zone>
+     </station>
+     <station idx="13">
+       <name>Brno-Chrlice</name>
+       <zone>101</zone>
+     </station>
+     <station idx="14">
+       <name>Brno hl.n.</name>
+       <zone>100</zone>
+     </station>
+   </link>
+   <link id="S8">
+     <station idx="1">
+       <name>Břeclav</name>
+       <zone>575</zone>
+     </station>
+     <station idx="2">
+       <name>Boří les</name>
+       <zone>575</zone>
+     </station>
+     <station idx="3">
+       <name>Valtice město</name>
+       <zone>582</zone>
+     </station>
+     <station idx="4">
+       <name>Valtice</name>
+       <zone>582</zone>
+     </station>
+     <station idx="5">
+       <name>Sedlec u Mikulova</name>
+       <zone>582</zone>
+     </station>
+     <station idx="6">
+       <name>Mikulov na Moravě</name>
+       <zone>571</zone>
+     </station>
+     <station idx="7">
+       <name>Březí</name>
+       <zone>561</zone>
+     </station>
+     <station idx="8">
+       <name>Dobré Pole</name>
+       <zone>561</zone>
+     </station>
+     <station idx="9">
+       <name>Novosedly</name>
+       <zone>551</zone>
+     </station>
+     <station idx="10">
+       <name>Jevišovka</name>
+       <zone>551</zone>
+     </station>
+     <station idx="11">
+       <name>Hrušovany nad Jevišovkou</name>
+       <zone>560</zone>
+     </station>
+     <station idx="12">
+       <name>Božice u Znojma</name>
+       <zone>820</zone>
+     </station>
+     <station idx="13">
+       <name>Hodonice</name>
+       <zone>810</zone>
+     </station>
+     <station idx="14">
+       <name>Dyje</name>
+       <zone>810</zone>
+     </station>
+     <station idx="15">
+       <name>Znojmo</name>
+       <zone>800</zone>
+     </station>
+   </link>
+   <link id="S81">
+     <station idx="1">
+       <name>Znojmo</name>
+       <zone>800</zone>
+     </station>
+     <station idx="2">
+       <name>Citonice</name>
+       <zone>815</zone>
+     </station>
+     <station idx="3">
+       <name>Olbramkostel</name>
+       <zone>815</zone>
+     </station>
+     <station idx="4">
+       <name>Šumná</name>
+       <zone>825</zone>
+     </station>
+     <station idx="5">
+       <name>Grešlové Mýto</name>
+       <zone>835</zone>
+     </station>
+     <station idx="6">
+       <name>Blížkovice</name>
+       <zone>845</zone>
+     </station>
+     <station idx="7">
+       <name>Vesce</name>
+       <zone>845</zone>
+     </station>
+     <station idx="8">
+       <name>Moravské Budějovice</name>
+       <zone>855</zone>
+     </station>
+   </link>
+   <link id="S82">
+      <station idx="1">
+       <name>Znojmo</name>
+       <zone>800</zone>
+     </station>
+     <station idx="2">
+       <name>Znojmo-Nový Šaldorf</name>
+       <zone>800</zone>
+     </station>
+     <station idx="3">
+       <name>Šatov</name>
+       <zone>817</zone>
+     </station>
+   </link>
+   <link id="S9+R5">
+     <station idx="1">
+       <name>Moravský Písek zastávka</name>
+       <zone>695</zone>
+     </station> 
+     <station idx="2">
+       <name>Moravský Písek</name>
+       <zone>695</zone>
+     </station>
+     <station idx="3">
+       <name>Bzenec-Přívoz</name>
+       <zone>695</zone>
+     </station>
+     <station idx="4">
+       <name>Rohatec</name>
+       <zone>915</zone>
+     </station>
+     <station idx="5">
+       <name>Rohatec zastávka</name>
+       <zone>915</zone>
+     </station>
+     <station idx="6">
+       <name>Hodonín</name>
+       <zone>900</zone>
+     </station>
+     <station idx="7">
+       <name>Lužice</name>
+       <zone>912</zone>
+     </station>
+     <station idx="8">
+       <name>Moravská Nová Ves</name>
+       <zone>912</zone>
+     </station>
+     <station idx="9">
+       <name>Hrušky zastávka</name>
+       <zone>912</zone>
+     </station>
+     <station idx="10">
+       <name>Břeclav</name>
+       <zone>575</zone>
+     </station>
+   </link>
+   <link id="S91">
+      <station idx="1">
+       <name>Myjava</name>
+       <zone>975</zone>
+     </station>  
+     <station idx="2">
+       <name>Brestovec</name>
+       <zone>965</zone>
+     </station>   
+     <station idx="3">
+       <name>Vrbovce zastávka</name>
+       <zone>965</zone>
+     </station>
+     <station idx="4">
+       <name>Vrbovce</name>
+       <zone>965</zone>
+     </station>
+     <station idx="5">
+       <name>Javorník nad Veličkou zastávka</name>
+       <zone>955</zone>
+     </station>
+     <station idx="6">
+       <name>Velká nad Veličkou</name>
+       <zone>955</zone>
+     </station>
+     <station idx="7">
+       <name>Louka u Ostrohu</name>
+       <zone>945</zone>
+     </station>
+     <station idx="8">
+       <name>Lipov</name>
+       <zone>945</zone>
+     </station>
+     <station idx="9">
+       <name>Blatnice pod svatým Antonínkem</name>
+       <zone>945</zone>
+     </station>
+     <station idx="10">
+       <name>Veselí nad Moravou</name>
+       <zone>935</zone>
+     </station>
+     <station idx="11">
+       <name>Veselí nad Moravou-Zarazice</name>
+       <zone>935</zone>
+     </station>
+     <station idx="12">
+       <name>Vnorovy</name>
+       <zone>935</zone>
+     </station>
+     <station idx="13">
+       <name>Strážnice</name>
+       <zone>925</zone>
+     </station>
+     <station idx="14">
+       <name>Petrov u Strážnice</name>
+       <zone>925</zone>
+     </station>
+     <station idx="15">
+       <name>Sudoměřice nad Moravou</name>
+       <zone>925</zone>
+     </station>
+     <station idx="16">
+       <name>Rohatec kolonie</name>
+       <zone>915</zone>
+     </station>
+     <station idx="17">
+       <name>Rohatec</name>
+       <zone>915</zone>
+     </station>
+     <station idx="18">
+       <name>Rohatec zastávka</name>
+       <zone>915</zone>
+     </station>
+     <station idx="19">
+       <name>Hodonín</name>
+       <zone>900</zone>
+     </station>
+   </link>
+</links>

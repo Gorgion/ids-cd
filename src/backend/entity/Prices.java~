@@ -1,0 +1,40 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package backend.entity;
+
+import java.math.BigDecimal;
+import java.util.List;
+
+/**
+ *
+ * @author Tomáš
+ */
+public class Prices
+{
+    private BigDecimal cdPrice;
+    private List<BigDecimal> idsPrices;
+
+    public BigDecimal getCdPrice()
+    {
+        return cdPrice;
+    }
+
+    public void setCdPrice(BigDecimal cdPrice)
+    {
+        this.cdPrice = cdPrice;
+    }
+
+    public List<BigDecimal> getIdsPrice()
+    {
+        return idsPrices;
+    }
+
+    public void setIdsPrice(List<BigDecimal> idsPrice)
+    {
+        this.idsPrices = idsPrice;
+    }
+}

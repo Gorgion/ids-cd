@@ -1,0 +1,24 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+                
+    <xs:element name="stations">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="station" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+  <xs:element name="station">
+    <xs:complexType>
+      <xs:sequence>
+         <xs:element name="name" type="xs:string" />
+         <xs:element name="latitude-degree" type="xs:integer" />
+         <xs:element name="latitude-minute" type="xs:integer" />
+         <xs:element name="latitude-second" type="xs:integer" />
+         <xs:element name="longitude-degree" type="xs:integer" />
+         <xs:element name="longitude-minute" type="xs:integer" />
+         <xs:element name="longitude-second" type="xs:integer" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tickets>
+    <transferable>
+        <ticket idx="1">
+            <zone>2</zone>
+            <price>20</price>
+            <time restriction="brno">15</time>
+            <time restriction="no-brno">45</time>
+        </ticket>
+        <ticket idx="2">
+            <zone>2</zone>
+            <price>25</price>
+            <time>60</time>
+        </ticket>
+        <ticket idx="3">
+            <zone>3</zone>
+            <price>27</price>
+            <time>90</time>
+        </ticket>
+        <ticket idx="4">
+            <zone>4</zone>
+            <price>34</price>
+            <time>90</time>
+        </ticket>
+        <ticket idx="5">
+            <zone>5</zone>
+            <price>42</price>
+            <time>120</time>
+        </ticket>
+        <ticket idx="6">
+            <zone>6</zone>
+            <price>49</price>
+            <time>120</time>
+        </ticket>
+        <ticket idx="7">
+            <zone>7</zone>
+            <price>56</price>
+            <time>150</time>
+        </ticket>
+        <ticket idx="8">
+            <zone>8</zone>
+            <price>63</price>
+            <time>150</time>
+        </ticket>
+        <ticket idx="9">
+            <zone>9</zone>
+            <price>71</price>
+            <time>180</time>
+        </ticket>
+        <ticket idx="10">
+            <zone>10</zone>
+            <price>78</price>
+            <time>180</time>
+        </ticket>
+        <ticket idx="11">
+            <zone>unlimited</zone>
+            <price>86</price>
+            <time>180</time>
+        </ticket>
+        <weekendGroup>
+        <ticket idx="12" maxAdults="2" maxChildren="3">
+            <zone>unlimited</zone>
+            <price>190</price>
+            <time>1440</time>
+        </ticket>
+        <ticket idx="13" maxAdults="2" maxChildren="3">
+            <zone>unlimited</zone>
+            <price>90</price>
+            <time>1440</time>
+            <in>100</in>
+            <in>101</in>
+        </ticket>
+        <ticket idx="14" maxAdults="2" maxChildren="3">
+            <zone>unlimited</zone>
+            <price>150</price>
+            <time>1440</time>
+            <except>brno</except>
+        </ticket>
+        <ticket idx="15" maxAdults="2" maxChildren="3">
+            <zone>20</zone>
+            <price>100</price>
+            <time>1440</time>
+            <in>220</in>
+            <in>225</in>
+            <in>230</in>
+            <in>232</in>
+            <in>235</in>
+            <in>240</in>
+            <in>245</in>
+            <in>246</in>
+            <in>250</in>
+            <in>255</in>
+            <in>256</in>
+            <in>260</in>
+            <in>262</in>
+            <in>265</in>
+            <in>266</in>
+            <in>270</in>
+            <in>275</in>
+            <in>277</in>
+            <in>280</in>
+            <in>286</in>
+        </ticket>
+        <ticket idx="16" maxAdults="2" maxChildren="3">
+            <zone>22</zone>
+            <price>100</price>
+            <time>1440</time>
+            <in>630</in>
+            <in>640</in>
+            <in>650</in>
+            <in>652</in>
+            <in>653</in>
+            <in>660</in>
+            <in>662</in>
+            <in>675</in>
+            <in>685</in>
+            <in>687</in>
+            <in>695</in>
+            <in>900</in>
+            <in>910</in>
+            <in>912</in>
+            <in>915</in>
+            <in>917</in>
+            <in>925</in>
+            <in>935</in>
+            <in>945</in>
+            <in>955</in>
+            <in>965</in>
+            <in>975</in>
+        </ticket>
+        <ticket idx="17" maxAdults="2" maxChildren="3">
+            <zone>20</zone>
+            <price>100</price>
+            <time>1440</time>
+            <in>530</in>
+            <in>535</in>
+            <in>537</in>
+            <in>540</in>
+            <in>545</in>
+            <in>550</in>
+            <in>551</in>
+            <in>552</in>
+            <in>555</in>
+            <in>560</in>
+            <in>561</in>
+            <in>562</in>
+            <in>565</in>
+            <in>570</in>
+            <in>571</in>
+            <in>572</in>
+            <in>575</in>
+            <in>580</in>
+            <in>582</in>
+            <in>585</in>
+        </ticket>
+        <ticket idx="18" maxAdults="2" maxChildren="3">
+            <zone>28</zone>
+            <price>100</price>
+            <time>1440</time>
+            <in>550</in>
+            <in>560</in>
+            <in>570</in>
+            <in>580</in>
+            <in>800</in>
+            <in>810</in>
+            <in>812</in>
+            <in>815</in>
+            <in>817</in>
+            <in>818</in>
+            <in>820</in>
+            <in>822</in>
+            <in>823</in>
+            <in>825</in>
+            <in>829</in>
+            <in>831</in>
+            <in>832</in>
+            <in>833</in>
+            <in>835</in>
+            <in>837</in>
+            <in>839</in>
+            <in>843</in>
+            <in>845</in>
+            <in>847</in>
+            <in>855</in>
+            <in>857</in>
+            <in>867</in>
+            <in>877</in>
+        </ticket>
+    </weekendGroup>
+    </transferable>  
+    <non-transferable>
+        <ticket idx="19">
+            <zone>2</zone>
+            <price>16</price>
+            <time>30</time>
+            <stations>2</stations>
+        </ticket>
+    </non-transferable>
+</tickets>

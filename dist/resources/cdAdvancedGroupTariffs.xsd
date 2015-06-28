@@ -1,0 +1,22 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="groupTariffs">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="groupTariff" maxOccurs="unbounded" minOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="tariffName"/>
+                            <xs:element type="xs:decimal" name="price"/>
+                            <xs:element type="xs:positiveInteger" name="maxPeople"/>
+                            <xs:element type="xs:positiveInteger" name="maxAdults"/>
+                            <xs:element type="xs:positiveInteger" name="maxChildren"/>
+                            <xs:element type="xs:positiveInteger" name="hours"/>
+                        </xs:sequence>
+                        <xs:attribute type="xs:boolean" name="weekendOnly" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

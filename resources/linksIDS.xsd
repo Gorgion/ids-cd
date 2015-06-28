@@ -1,0 +1,62 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- simple elements -->
+    <xs:simpleType name="zoneType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{3}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="stringType">
+        <xs:restriction base="xs:string">
+           <xs:minLength value="1"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:element type="stringType" name="name" />
+    <xs:element type="zoneType" name="zone" />
+    
+                    
+    <!-- complex elements -->
+    <xs:element name="station">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name"/>
+                <xs:element ref="zone"/>
+            </xs:sequence>
+            <xs:attribute name="idx" type="xs:positiveInteger" use="required" />
+        </xs:complexType>
+    </xs:element>
+                    
+    <xs:element name="variant">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="station" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="link">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="station" maxOccurs="unbounded" />                
+                <xs:element ref="variant" maxOccurs="unbounded" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="id" use="required"/>
+        </xs:complexType>
+        <!-- idx represents serial number of station-->
+        <xs:unique name="unique-idx">
+            <xs:selector xpath="./station"/>
+            <xs:field xpath="@idx"/>
+        </xs:unique>
+    </xs:element>
+                    
+    <!-- root element -->
+    <xs:element name="links">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="link" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
